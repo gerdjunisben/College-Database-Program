@@ -1,0 +1,43 @@
+.text
+{
+    -fx-font-family: "monospace";
+}
+
+.button
+{
+    -fx-background-color: darkslateblue;
+    -fx-text-fill:white;
+}
+
+.combo-box
+{
+    -fx-background-color: darkslateblue;
+    -fx-text-fill:white; 
+}
+
+
+
+.anchor-pane
+{
+    -fx-background-color: BEIGE;
+}
+
+.list-cell
+{
+    -fx-background-color: darkslateblue;
+    -fx-text-fill:white;
+}
+
+
+
+.table-view .column-header
+{
+    -fx-background-color: darkslateblue;
+}
+
+.table-view .column-header-background .label
+{
+    -fx-text-fill: white;
+}
+
+

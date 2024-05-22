@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.SignUpController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <TextField fx:id="usernameBox" layoutX="126.0" layoutY="93.0" promptText="username" />
+            <PasswordField fx:id="passwordBox1" layoutX="127.0" layoutY="155.0" promptText="password" />
+            <PasswordField fx:id="passwordBox2" layoutX="128.0" layoutY="218.0" promptText="confirm password" />
+            <Button fx:id="signUpButton" layoutX="77.0" layoutY="287.0" mnemonicParsing="false" onAction="#signUpClick" prefHeight="30.0" prefWidth="102.0" text="sign up" />
+            <Button fx:id="signInButton" layoutX="228.0" layoutY="287.0" mnemonicParsing="false" onAction="#signInClick" prefHeight="30.0" prefWidth="102.0" text="sign in" />
+            <Label fx:id="label" alignment="CENTER" layoutX="109.0" layoutY="46.0" prefHeight="30.0" prefWidth="183.0" text="sign up" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
